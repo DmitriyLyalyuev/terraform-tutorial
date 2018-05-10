@@ -1,6 +1,7 @@
 variable "aws_region" {}
 variable "aws_key_name" {}
 variable "public_az" {}
+variable "private_az" {}
 
 ## VPC
 variable "vpc_cidr" {
